@@ -1,0 +1,221 @@
+/*............................universal*/
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: roboto, san serif;
+	line-height: 20px;
+}
+
+body{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: repeat;
+}
+/*............................parte exterior menu y logo*/
+
+#menu{
+	width: 100%;
+	height: 115px;
+	background-image: url(../img/arriba.jpg);
+	background-repeat: repeat-x;
+}
+
+.header{
+	width: 961px;
+	height: 115px;
+	margin: 0 auto;
+	
+}
+
+.logo{
+	width: 50%;
+	height: 115px;
+	float: left;
+	
+}
+
+.logo img{
+	margin: 30px;
+}
+
+.nav{
+	width: 50%;
+	height: 115px;
+	float: right;
+
+}
+
+.barra{
+	width: 100%;
+	height: 42px;	
+	margin: 35px 0px;
+}
+
+.barra a{
+	padding: 12px 16px;
+	color: #000;
+	text-decoration-line: none;
+	position: relative;
+	top: 12px;
+	border-radius: 5px;	
+	box-shadow: 0 0 1;
+
+}
+
+.barra a:hover{
+	background: #fff;
+	color: #2ab5ba;
+	font-weight:400;
+}
+
+/*.............................parte del banner
+
+
+#banner{
+	width: 100%;
+	height: 550px;
+	
+}
+
+.imagen{
+	width: 961px;
+	height: 550px;	
+	margin: 0 auto;
+	padding-top: 20px;*/
+}
+
+/*.............................parte del cuerpo o contenido*/
+
+
+#cuerpo{
+	width: 100%;
+	height: 1000px;
+	
+}
+
+.contenido{
+	width: 961px;
+	height: 1000px;
+	margin: 0 auto;
+	
+}
+
+.left{
+	width: 70%;
+	height: 450px;	
+	float: left;
+}
+
+h2{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+
+p{
+	margin-right: 30px;
+}
+
+.right{
+	width: 30%;
+	height: 1000px;	
+	float: right;
+}
+
+ul li{
+	list-style-type: none;
+	padding-bottom: 20px;
+}
+
+.vin{	
+	padding-right: 5px;
+}
+
+.right img{
+	padding-top:10px;
+	padding-bottom: 15px;
+	float: left;
+}
+
+
+.down{
+	width: 70%;
+	height: 550px;	
+	float: left;
+}
+
+.uno,
+.dos{
+	width: 50%;
+	height: auto%;
+	float: left;
+}
+
+
+
+.f{
+	float:left;
+	padding-right: 10px;
+}
+
+
+span{
+	color:#2ab5ba;
+	text-decoration: ##2ab5ba;	
+}
+a{
+	color: #2ab5ba;
+}
+
+/*..............................pie de pagina*/
+
+#pie{
+	width: 100%;
+	height: 115px;
+	background-image: url(../img/abajo.jpg);
+	background-repeat: repeat-x;
+	
+}
+.foot{
+	width: 961px;
+	height: 115px;
+	margin: 0 auto;
+
+}
+
+.logo2{
+	width: 25%;
+	height: 115px;
+	float: left;
+}
+
+.logo2 img{
+	padding-top: 40px;
+}
+
+.info{
+	width: 50%;
+	height: 115px;
+	float: left;
+}
+
+.info p{
+	padding-top: 40px;
+	text-align: center;
+	line-height: 25px;
+}
+
+.redes{
+	width: 25%;
+	height: 115px;
+	float: right;
+}
+
+.redes .social{
+	padding-top: 40px;
+	padding-left: 25px;
+
+}
+.redes p{
+	padding: none;
+}
